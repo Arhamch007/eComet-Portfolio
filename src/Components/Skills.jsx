@@ -6,10 +6,10 @@ import { FaRobot } from "react-icons/fa6";
 export default function Skills() {
   return (
     <>
-    <div id='skills'>
-    <div className='max-w-[80%] mx-auto  py-[130px] '>
+    <div id='skills' >
+    <div className='max-w-[80%] mx-auto py-[20px]   md:py-[70px] '>
     <div className='flex flex-wrap justify-center items-center flex-col '>
-    <div className='text-black text-4xl font-bold'>Skills</div>
+    <div className='text-black text-4xl font-bold' >Skills</div>
     <div className='py-3'>Skilled professionals ready to assist</div>
     </div>
 

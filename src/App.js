@@ -15,12 +15,10 @@ function App() {
     <Header/>
     <Banner/>
     <About/>
-    <Contact/>
     <Skills/>
     <Teams/>
+    <Contact/>
     <Footer/>
-
-      
     </>
   );
 }

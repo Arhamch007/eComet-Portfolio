@@ -30,13 +30,13 @@ import { Link } from 'react-scroll';
         
             <li className='hover:text-black cursor-pointer'>
 
-            <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
-
-            <li className='hover:text-black cursor-pointer'>
             <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link></li>
 
             <li className='hover:text-black cursor-pointer'>
             <Link to="teams" spy={true} smooth={true} offset={50} duration={500}>Team</Link></li>
+
+            <li className='hover:text-black cursor-pointer'>
+            <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
         </ul>
         {/* Responsive */}
         <ul className= { `duration-500 font-bold md:hidden text-white gap-10 fixed bg-black  top-[60px] w-full h-screen ${toggle ? 'left-[0]' : 'left-[-100%]'}`}>
@@ -47,13 +47,13 @@ import { Link } from 'react-scroll';
             <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link>
             </li>
             <li className='p-5  decoration-2'>
-            <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
+            <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
             </li>
             <li className='p-5  decoration-2'>
-            <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
+            <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>Team</Link>
             </li>
             <li className='p-5  decoration-2'>
-            <Link to="teams" spy={true} smooth={true} offset={50} duration={500}>Team</Link>
+            <Link to="teams" spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
             </li>
         </ul>
     </div>
